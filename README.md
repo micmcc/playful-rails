@@ -20,10 +20,15 @@ The agent skills in `.grok/skills/` help keep this process on rails without lots
 
 ## Quick Start
 
-1. Click **Use this template** on GitHub to create a new game repo.
+1. Click **Use this template** on GitHub to create a new game repo  
+   (or, with Grok Build and the personal skill installed: `/new-playful-game`).
 2. Open the project with Grok Build (or your preferred tool).
 3. Start with the `brainstorm` skill or just talk about game ideas.
 4. Keep `INTENT.md` short and up to date — it is the map.
+
+### See a full loop once
+
+[playful-rails-example](https://github.com/micmcc/playful-rails-example) walks through one complete cycle (Lily Leap): brainstorm dump → Concept Card → INTENT → tiny browser game → playtest notes.
 
 ## Files that matter
 
@@ -39,9 +44,15 @@ No heavy PRDs. No big process. Just enough structure so changes stay coherent an
 
 ## Skills
 
+Shipped with this template (in `.grok/skills/`):
+
 - **brainstorm** — Generate and explore game ideas
 - **concept-sharpener** — Turn a rough idea into a tight Concept Card + tiny POC suggestion
 - **intent-keeper** — Help maintain and update the short INTENT.md
 - **playtest-reflector** — Turn play notes into clear next experiments
+
+Optional personal skill (install under `~/.grok/skills/`):
+
+- **new-playful-game** — Scaffold a new repo from this template and light-seed INTENT/IDEAS
 
 Have fun. Keep the loops short. The code is the easy part.
