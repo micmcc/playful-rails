@@ -1,0 +1,16 @@
+# Common noise
+node_modules/
+.dist/
+build/
+.next/
+.cache/
+*.log
+.DS_Store
+.env
+.env.*
+*.local
+
+# Large or generated assets (add more as needed)
+*.mp4
+*.psd
+*.blend
